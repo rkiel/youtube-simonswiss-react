@@ -43,6 +43,8 @@ export default function register() {
   }
 }
 
+/*eslint no-console: ["error", { allow: ["log", "warn", "error"] }] */
+
 function registerValidSW(swUrl) {
   navigator.serviceWorker
     .register(swUrl)
